@@ -1,5 +1,5 @@
 
-# Spring Boot, MongoDB, Angular 7 Restful API Tutorial Updated 2.2.2018 Version 0.04
+# Spring Boot, MongoDB, Angular 7 Restful API
 
 Build a Fully-Fledged Todo App with Spring Boot & MongoDB in the Backend and Angular in the frontend.
 
@@ -9,7 +9,7 @@ Build a Fully-Fledged Todo App with Spring Boot & MongoDB in the Backend and Ang
 
 2. Maven - 3.x.x
 
-3. MongoDB - 3.x.x
+3. Mysql - 5.x.x
 
 ## Steps to Setup
 
