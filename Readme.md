@@ -16,7 +16,7 @@ Build a Fully-Fledged Todo App with Spring Boot & MongoDB in the Backend and Ang
 **1. Clone the application**
 
 ```bash
-git clone git@github.com:callicoder/spring-boot-mongodb-angular-todo-app.git
+git clone git@github.com:vitaliy-hnatyk/spring-boot-mysql-todo.git
 ```
 
 **2. Build and run the backend app using maven**
