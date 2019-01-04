@@ -1,10 +1,11 @@
 
-# Spring Boot, MongoDB, Angular 7 Restful API
+# Spring Boot, MySql, Angular 7 Restful API
 
 [![Build Status](https://travis-ci.org/vitaliy-hnatyk/spring-boot-mysql-todo.svg?branch=master)](https://travis-ci.org/vitaliy-hnatyk/spring-boot-mysql-todo)
 ![license](https://img.shields.io/github/license/vitaliy-hnatyk/spring-boot-mysql-todo.svg)
+[![TypeScript](https://badges.frapsoft.com/typescript/version/typescript-v19.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 
-Build a Fully-Fledged Todo App with Spring Boot & MongoDB in the Backend and Angular in the frontend.
+Build a Fully-Fledged Todo App with Spring Boot & Mysql in the Backend and Angular in the frontend.
 
 ## Requirements
 
