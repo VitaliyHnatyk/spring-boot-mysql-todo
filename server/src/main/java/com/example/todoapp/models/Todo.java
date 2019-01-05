@@ -54,4 +54,13 @@ public class Todo {
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Todo{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", createdAt=" + createdAt +
+                '}';
+    }
 }

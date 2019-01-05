@@ -27,6 +27,7 @@ public class TodoController {
 
     @PostMapping("/todos")
     public Todo createTodo(@Valid @RequestBody Todo todo) {
+
         return todoRepository.save(todo);
     }
 
@@ -44,8 +45,7 @@ public class TodoController {
                 .orElseThrow(() -> new ResourceNotFoundException("Todo", "id", id));
 
         todoData.setTitle(todo.getTitle());
-        Todo updatedTodo = todoRepository.save(todoData);
-        return updatedTodo;
+        return todoRepository.save(todoData);
     }
 
     @DeleteMapping(value="/todos/{id}")
