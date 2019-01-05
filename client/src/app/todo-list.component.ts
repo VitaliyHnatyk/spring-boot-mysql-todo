@@ -1,6 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { TodoService } from './todo.service';
-import { Todo } from './todo';
+import {Component, OnInit} from '@angular/core';
+import {TodoService} from './todo.service';
+import {Todo} from './todo';
 import {NgForm} from '@angular/forms';
 
 @Component({
@@ -17,7 +17,8 @@ export class TodoListComponent implements OnInit {
 
   constructor(
     private todoService: TodoService
-  ) {}
+  ) {
+  }
 
   ngOnInit(): void {
     this.getTodos();
@@ -31,7 +32,7 @@ export class TodoListComponent implements OnInit {
     this.todoService.createTodo(this.newTodo).subscribe(createTodo => {
       todoForm.reset();
       this.newTodo = new Todo();
-      console.log( "newTodo=" + this.newTodo.title);
+      console.log("newTodo=" + this.newTodo.title);
       this.todos.unshift(createTodo)
     })
 

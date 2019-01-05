@@ -40,7 +40,7 @@ export class TodoService {
   }
 
   private handleError<T>(operation = 'operation', result?: T) {
-    console.error(operation)
+    console.error(operation);
     return (error: any): Observable<T> => {
       return of(result as T);
     };
