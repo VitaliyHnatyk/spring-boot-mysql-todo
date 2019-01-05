@@ -5,6 +5,8 @@
 ![license](https://img.shields.io/github/license/vitaliy-hnatyk/spring-boot-mysql-todo.svg)
 [![TypeScript](https://badges.frapsoft.com/typescript/version/typescript-v19.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/vitaliy-hnatyk/spring-boot-mysql-todo.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/vitaliy-hnatyk/spring-boot-mysql-todo/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/vitaliy-hnatyk/spring-boot-mysql-todo.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/vitaliy-hnatyk/spring-boot-mysql-todo/context:javascript)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/vitaliy-hnatyk/spring-boot-mysql-todo.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/vitaliy-hnatyk/spring-boot-mysql-todo/context:java)
 
 Build a Fully-Fledged Todo App with Spring Boot & Mysql in the Backend and Angular in the frontend.
 
