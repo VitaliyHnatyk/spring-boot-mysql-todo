@@ -17,8 +17,7 @@ export class TodoListComponent implements OnInit {
 
   constructor(
     private todoService: TodoService
-  ) {
-  }
+  ) {}
 
   ngOnInit(): void {
     this.getTodos();
@@ -32,7 +31,6 @@ export class TodoListComponent implements OnInit {
     this.todoService.createTodo(this.newTodo).subscribe(createTodo => {
       todoForm.reset();
       this.newTodo = new Todo();
-      console.log("newTodo=" + this.newTodo.title);
       this.todos.unshift(createTodo)
     })
 
@@ -61,7 +59,6 @@ export class TodoListComponent implements OnInit {
       let existingTodo = this.todos.find(todo => todo.id === updatedTodo.id);
       Object.assign(existingTodo, updatedTodo);
     })
-
   }
 
   editTodo(todoData: Todo): void {

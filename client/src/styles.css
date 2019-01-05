@@ -2,12 +2,6 @@
 
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-/*
-body {
-  font-family: Roboto, Arial, sans-serif;
-  margin: 0;
-}
-*/
 
 .basic-container {
   padding: 5px;
@@ -21,23 +15,14 @@ body {
 body {
   font-size: 18px;
   line-height: 1.58;
-  background: #d53369;
-  background: -webkit-linear-gradient(to left, #cbad6d, #d53369);
-  background: linear-gradient(to left, #cbad6d, #d53369);
   color: #333;
-  /* width:1000px; */
   margin:0 auto;
   text-align:center;
   padding:15px;
-  /*background-color:#eee;*/
 }
 
 h1 {
   font-size: 36px;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 i {
@@ -182,12 +167,10 @@ li.completed i {
   color: #757575;
 }
 
-
 .example-main {
   width:1000px;
   margin:0 auto;
   text-align:left;
   padding:15px;
-  /* border:1px dashed #333; */
   background-color:white;
 }

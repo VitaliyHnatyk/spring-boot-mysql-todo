@@ -16,7 +16,7 @@ import java.util.Date;
         allowGetters = true)
 public class Todo {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @NotBlank
@@ -26,6 +26,10 @@ public class Todo {
     @Temporal(TemporalType.TIMESTAMP)
     @CreatedDate
     private Date createdAt = new Date();
+
+    public Todo() {
+        super();
+    }
 
     public Todo(String title) {
         this.title = title;

@@ -19,7 +19,7 @@ export class TodoService {
   }
 
   createTodo(todoData: Todo): Observable<Todo> {
-    return this.http.post<Todo>(this.baseUrl + '/api/todos/', todoData)
+    return this.http.post<Todo>(this.baseUrl + '/api/create-todo/', todoData)
       .pipe(
         catchError(this.handleError<Todo>(`createTodo ${todoData.title}`))
       )

@@ -4,18 +4,19 @@ import com.example.todoapp.exception.ResourceNotFoundException;
 import com.example.todoapp.models.Todo;
 import com.example.todoapp.repositories.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import java.util.*;
 
 import javax.validation.Valid;
 import java.util.List;
 
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping(path = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
 @CrossOrigin("*")
 public class TodoController {
-
 
     @Autowired
     TodoRepository todoRepository;
@@ -25,9 +26,8 @@ public class TodoController {
         return todoRepository.findAll();
     }
 
-    @PostMapping("/todos")
-    public Todo createTodo(@Valid @RequestBody Todo todo) {
-
+    @PostMapping("/create-todo")
+    public Todo createTodo(@RequestBody Todo todo) {
         return todoRepository.save(todo);
     }
 
